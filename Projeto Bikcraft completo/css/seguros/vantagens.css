@@ -13,7 +13,7 @@
 
 .vantagens ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
   gap: 40px 80px;
 }
 
