@@ -36,7 +36,7 @@
 }
 
 .header-menu a:hover::after,
-.header-menu a.ativo::after {
+.header-menu a.ativo::after { /* class para function js */
   width: 100%;
 }
 
