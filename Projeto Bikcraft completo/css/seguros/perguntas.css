@@ -49,14 +49,12 @@
   transform: rotate(180deg); 
 }
 
-.perguntas dd {
-  padding-left: 20px;
-  padding-top: 16px;
-  max-width: 80ch;
+.js .perguntas dd {  
   display: none;
 }
 
-.perguntas dd.ativa {
+.js .perguntas dd.ativa {
+  padding-top: 10px;
   display: block;
 }
 
