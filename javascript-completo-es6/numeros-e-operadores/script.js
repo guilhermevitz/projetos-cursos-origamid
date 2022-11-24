@@ -1,51 +1,52 @@
-let soma = 10 + 5 + 20;
-let divisao = 300 / 2;
-let modulo = 3109033 % 5;
+// Verifique se a sua idade é maior do que a de algum parente
+// Dependendo do resultado coloque no console 'É maior', 'É igual' ou 'É menor'
 
-console.log(modulo);
+let minhaIdade = 32;
+let idadeParente = 45;
 
-let testeNan = 'Isso é 100' / 2;
-console.log(testeNan);
-
-let soma1 = 10 + 10 + 20 + 30 * 5 * 4 /2 + 10;
-console.log(soma1);
-
-
-let x = 6;
-console.log(++x);
-
-let idade = '32'; //string proposital //
-let somaIdade = 6;
-
-console.log(+idade + somaIdade);
-
-// EXERCÍCIO
-
-// Qual o resultado da seguinte expressão?
-let total = 10 + 5 * 2 / 2 + 20;
-total = 35;
-
-// Crie duas expressões que retornem NaN //
-
-let altura = 'tenho 1,90'- 1;
-let idade1 = 'tenho 60' / 2;
-console.log(altura, idade1);
+if(minhaIdade > idadeParente) {
+  console.log('É maior');
+} else if(minhaIdade === idadeParente) {
+  console.log ('É igual');
+} else {
+  console.log ('É menor');
+}
 
 
-// Somar a string '200' com o número 50 e retornar 250
+// Qual valor é retornado na seguinte expressão?
+var expressao = (5 - 2) && (5 - ' ') && (5 - 2);
+console.log (expressao);
 
-let soma2 = +'200' + 50;
-console.log(soma2);
 
-// Incremente o número 5 e retorne o seu valor incrementado
+// Verifique se as seguintes variáveis são Truthy ou Falsy
+var nome = 'Andre';
+var idade = 28;
+var possuiDoutorado = false;
+var empregoFuturo;
+var dinheiroNaConta = 0;
 
-let y = 8;
-console.log(++y);
+console.log(!!nome, !!idade, !!possuiDoutorado, !empregoFuturo, !!dinheiroNaConta);
 
-// Como dividir o peso por 2?
+// Compare o total de habitantes do Brasil com China (valor em milhões)
+var brasil = 207;
+var china = 1340;
 
-let numero = +'90'/ 2;
-let unidade = 'kg';
-let peso = numero + unidade; // '80kg'
+if(brasil > china) {
+  console.log('Brasil tem mais habitantes');
+} else {
+  console.log('Brasil tem menos habitantes');
+}
 
-console.log(peso);
+// O que irá aparecer no console?
+if(('Gato' === 'gato') && (5 > 2)) {
+  console.log('Verdadeiro');
+} else {
+  console.log('Falso');
+}
+
+// O que irá aparecer no console?
+if(('Gato' === 'gato') || (5 > 2)) {
+  console.log('Gato' && 'Cão');
+} else {
+  console.log('Falso');
+}
